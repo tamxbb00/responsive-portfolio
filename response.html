@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Responsive Portfolio Website</title>
+    <link rel="stylesheet" href="response.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- Navigation Menu -->
+    <nav>
+      <div class="nav-container">
+        <div class="logo" data-aos="zoom-in" data-aos-duration="1100">Tamx <span>wize</span></div>
+        <div class="links">
+          <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="100"><a href="#home">Home</a></div>
+          <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="200"><a href="#about">About</a></div>
+          <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="300"><a href="#skills">Skills</a></div>
+          <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="400"><a href="#services">Services</a></div>
+          <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="500"><a href="#contact">Contact</a></div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+      </div>
+      <div class="dropdown">
+        <div class="links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#services">Service</a>
+          <a href="#contact">Contact</a>
+          <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home">
+      <div class="main-container">
+        <div class="image" data-aos="zoom-in" data-aos-duration="2500">
+          <img src="home1.jpg" alt="">
+        </div>
+        <div class="content">
+          <h1 data-aos="fade-left" data-aos-duration="1100" data-aos-delay="700">Hey I'm <span>Tamx</span></h1>
+          <div class="typewriter" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="900">I'm a <span class="typewriter-text"></span><label for="">|</label></div>
+          <p data-aos="flip-up" data-aos-duration="1100" data-aos-delay="1100">Lorem ipsum dolor sit amet consectetur, adipisicing elit...</p>
+          <div class="social-links" data-aos="zoom-in-left" data-aos-duration="1100" data-aos-delay="1700">
+            <a href="https://www.linkedin.com/in/tamil-deepa-sudar-8374a4298" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/tamxr._.bb._.07/profilecard/?igsh=MWc5YmVxMD12MHp4cw==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/tamil-deepa-sudar-8374a4298" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://x.com/tamxr07" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+          <div class="btn"><button class="glow-button">Hire me</button></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1100"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="100">
+            <img src="main.jpg" alt="">
+          </div>
+          <div class="right">
+            <div class="topic" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="200">Designing Is My Passion</div>
+            <p data-aos="fade-right" data-aos-duration="1100" data-aos-delay="400">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <div class="button" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="600"><button>Download CV</button></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1100"><span>My Skills</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="100">Skills Reflects Our Knowledge</div>
+            <p data-aos="flip-down" data-aos-duration="1100" data-aos-delay="200">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <div class="experience" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="300">
+              <div class="num">3</div>
+              <div class="exp">Years Of <br> Experience</div>
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="400">
+              <div class="topic">HTML</div>
+              <div class="per">95%</div>
+            </div>
+            <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="500">
+              <div class="topic">CSS</div>
+              <div class="per">90%</div>
+            </div>
+            <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="600">
+              <div class="topic">JavScript</div>
+              <div class="per">60%</div>
+            </div>
+            <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="700">
+              <div class="topic">PHP</div>
+              <div class="per">20%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1100"><span>My Services</span></div>
+        <div class="boxes">
+          <div class="box" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="100">
+            <div class="icon"><i class="fas fa-desktop"></i></div>
+            <div class="topic">Web Devlopment</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+          </div>
+          <div class="box" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="100">
+            <div class="icon"><i class="fas fa-paint-brush"></i></div>
+            <div class="topic">Graphic Design</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+          </div>
+          <div class="box" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="100">
+            <div class="icon"><i class="fas fa-chart-line"></i></div>
+            <div class="topic">Digital Marketing</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+          </div>
+          <div class="box" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="300">
+            <div class="icon"><i class="fab fa-android"></i></div>
+            <div class="topic">Icon Design</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+          </div>
+          <div class="box" data-aos="fade-down" data-aos-duration="1100" data-aos-delay="300">
+            <div class="icon"><i class="fas fa-camera-retro"></i></div>
+            <div class="topic">Photography</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+          </div>
+          <div class="box" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="400">
+            <div class="icon"><i class=""></i></div>
+                 
+    <script src="response.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+  </body>
+</html
